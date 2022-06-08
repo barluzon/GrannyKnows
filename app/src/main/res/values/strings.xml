@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Granny Knows</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_username">Email</string>
+    <string name="hint_nickname">Nickname</string>
+    <string name="hint_password">Password</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_sign_up">Sign up</string>
+    <string name="button_send">Send</string>
+    <string name="button_send_uploader">Send Message To Uploader</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_signin_message">Hello, sign in to your account</string>
+    <string name="text_signin_social_media">Or Sign in using social media</string>
+    <string name="text_signup_social_media">Or Sign up using social media</string>
+    <string name="text_signin_signup">Don\'t have an account? <b>Sign up</b></string>
+    <string name="text_signup_terms">By signing up, you agree to our <b>terms and conditions</b></string>
+    <string name="text_signup_message">Hello, let\'s set up your account</string>
+    <string name="text_upload_treatment">Upload Treatment</string>
+    <string name="text_shipping_terms">Product will be delivered within 7 business days</string>
+
+    <string name="text_forgot_password_title">Forgot password? No worries</string>
+    <string name="text_forgot_password_message">We will send you a link to reset your password</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_treatment_name">Treatment Name</string>
+    <string name="hint_ingredients">Ingredients</string>
+    <string name="hint_preparation">Preparation</string>
+    <string name="hint_size">Size</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_buy">Buy</string>
+    <string name="hint_buy_treatment">Buy Treatment</string>
+    <string name="hint_city">City</string>
+    <string name="hint_address">Full adress</string>
+
+    <string name="hint_continue_to_payment">Continue To Payment</string>
+    <string name="long_warning">
+        First of all were glad that you choose our app.
+        We would like you to read and understand some ruls."\n"
+        This application provid information about home remedies and natural treatments for some casual diseases,
+        even so, this app is not a substitute for professional medical advice by a doctor"\n"
+        We want you to confirm and agree that the use of the information appearing in the application is your sole responsibility."\n"
+        Some rules of cations:"\n" "\n"
+        1. Follow the instructions carefully at your care! if something look odd to you,
+        contact the user/developer."\n" "\n"
+        2. The application services are for informational purposes only, and
+        do not constitute a substitute for medical advice or treatment / examination and diagnosis"\n" "\n"
+        3. Do not reject medical treatment offered to you by your doctor because of information appearing in the app."\n" "\n"
+        4. The application is for adults only, childs should use the application near a parent or responsible adult."\n" "\n"
+        5. Use only one herb at a time. In treating the disease, use one herb available to you,even where several are offered."\n" "\n"
+        6. Some people are sensitive and allergic to certain plant/leaves.
+        If symptoms of aleergy are observed during treatment or after, stop the treatment immediately.
+        Symptoms of allergy for example: itching, nausea and vomiting, dizzing and headache.
+        please consult a doctor immediately."\n" "\n"
+        Sincerely yours,"\n" "\n""\n" "\n"</string>
+
+
+    <string-array name="months_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="HealthyInfo">
+        <item>Avocado</item>
+        <item>Pineapple</item>
+        <item>Lemon</item>
+        <item>Ginger</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>
+            "\n"
+            Avocados are a source of vitamins C, E, K, and B6 "\n"
+            Healthy for the heart because of high amount of "\n"
+            sitosterol."\n" "\n"
+            Great for vision, Avocado contain high lutein and"\n"
+            zeaxanthin. "\n"
+            vocados are a good source of folateTrusted Source,"\n"
+            which plays an important role in overall dietary health. "\n""\n"
+            Avocados also contain saponins which good for Osteoarthritis relief"\n"
+            Roughly half an avocado, or 100 grams (g), containsTrusted Source:"\n"
+
+160 calories"\n"
+14.7 g of fat"\n"
+8.5 g of carbohydrates"\n"
+6.7 g of fiber"\n"
+less than 1 g of sugar"\n"
+
+        </item>
+
+        <item>
+            "\n"
+            Pineapples are low in calories but have an incredibly impressive nutrient profile."\n" "\n"
+            Not only are pineapples rich in nutrients, they are also loaded with healthy antioxidants."\n"
+
+            Antioxidants are molecules that help your body combat oxidative stress. "\n"
+            Several studies have shown that pineapple and its compounds may reduce the risk of cancers."\n"
+            This is because they may minimize oxidative stress and reduce inflammation."\n" "\n"
+            One cup (5.8 ounces or 165 grams) of pineapple chunks contains the following:
+
+Calories: 82.5"\n"
+Fat: 1.7 grams"\n"
+Protein: 1 gram"\n"
+Carbs: 21.6 grams"\n"
+Fiber: 2.3 grams"\n"
+Vitamin C: 131% of the RDI"\n"
+
+        </item>
+        <item>Lemons are high in vitamin C, fiber, and various beneficial plant compounds."\n"
+
+        These nutrients are responsible for several health benefits.
+
+        In fact, lemons may support heart health, weight control, and digestive health. "\n"
+        One lemon provides about 31 mg of vitamin C, which is 51% of the reference daily intake"\n""\n"
+            The nutrients in 1/2 cup (100 grams) of raw, peeled lemon are (1Trusted Source):"\n"
+
+Calories: 29"\n"
+Water: 89%"\n"
+Protein: 1.1 grams"\n"
+Carbs: 9.3 grams"\n"
+Sugar: 2.5 grams"\n"
+Fiber: 2.8 grams"\n"
+Fat: 0.3 grams"\n"
+        </item>
+        <item>
+            "\n"
+            It belongs to the Zingiberaceae family, and it’s closely related to turmeric, cardamom, and galangal."\n"
+            Ginger can be used fresh, dried, powdered, or as an oil or juice. It’s a very common ingredient in recipes.
+            It’s sometimes added to processed foods and cosmetics."\n" "\n"
+            The unique fragrance and flavor of ginger come from its natural oils, the most important of which is gingerol.
+
+            Gingerol is the main bioactive compound in ginger. It’s responsible for much of ginger’s medicinal properties. "\n" "\n"
+            Just 1–1.5 grams of ginger can help prevent various types of nausea, including chemotherapy-related nausea, nausea after surgery, and morning sicknes. "\n""\n"
+
+A quarter-cup of sliced, fresh ginger contains:"\n"
+Calories: 19."\n"
+Protein: Less than 1 gram."\n"
+Fat: Less than 1 gram."\n"
+Carbohydrates: 4 grams."\n"
+Fiber: Less than 1 gram."\n"
+Sugar: 0 grams"\n"
+
+        </item>
+
+
+    </string-array>
+</resources>

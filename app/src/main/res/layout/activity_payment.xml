@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activity.PaymentActivity">
+
+
+    <Button
+        android:id="@+id/activity_premium_payment_acceptButton"
+        android:layout_width="326dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="52dp"
+        android:text=" Payment"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        style="@style/Button1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avtivity_premium_payment_cardNumberCVC"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <EditText
+        android:id="@+id/avtivity_premium_payment_cardNumberCVC"
+        android:layout_width="143dp"
+        android:layout_height="44dp"
+
+        android:ems="10"
+        android:hint="CVC"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avtivity_premium_payment_cardNumber_PlainText"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <EditText
+        android:id="@+id/avtivity_premium_payment_cardNumber_PlainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Card number"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avtivity_premium_payment_cardNumberTextView"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <ImageView
+        android:id="@+id/back_premium_payment"
+        android:layout_width="48dp"
+        android:layout_height="35dp"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <Spinner
+        android:id="@+id/yearSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/avtivity_premium_payment_cardNumberCVC"
+        app:layout_constraintEnd_toStartOf="@+id/monthSpinner"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avtivity_premium_payment_cardNumber_PlainText"
+        app:layout_constraintVertical_bias="0.372" />
+
+    <Spinner
+        android:id="@+id/monthSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="204dp"
+        app:layout_constraintBottom_toTopOf="@+id/avtivity_premium_payment_cardNumberCVC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avtivity_premium_payment_cardNumber_PlainText"
+        app:layout_constraintVertical_bias="0.372" />
+
+    <TextView
+        android:id="@+id/avtivity_premium_payment_cardNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Upgrade to premium!"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

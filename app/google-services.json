@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "768346159087",
+    "project_id": "grannyknow-2e77b",
+    "storage_bucket": "grannyknow-2e77b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768346159087:android:1f4874e5e6cd677ec3681a",
+        "android_client_info": {
+          "package_name": "com.example.grannyknow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768346159087-smtd4a9o66dvk2u5at1u5govr45co537.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqD5RY4qW_0a_7KwMz8TIWVrtf3LU8rHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768346159087-smtd4a9o66dvk2u5at1u5govr45co537.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

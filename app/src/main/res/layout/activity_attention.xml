@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <!-- everything you already have -->
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="1051dp"
+            android:padding="3dip"
+            android:text="@string/long_warning"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="143dp"
+            android:layout_height="174dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/grannyknowsbetterwhite"></ImageView>
+
+    </TableLayout>
+</ScrollView>
